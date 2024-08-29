@@ -14,7 +14,7 @@ This is a command-line interface (CLI) application that translates text to Morse
 To use the Morse Code Translator, run the executable from the command line with the appropriate options.
 
 ```bash
-MorseCode.exe [options]
+MorseCode [options]
 ```
 
 ### Options
@@ -49,25 +49,25 @@ MorseCode.exe [options]
 1. **Encoding Text to Morse Code:**
 
 ```bash
-MorseCode.exe -d encode -rp morse-code-encode-input.txt -wp morse-code-output.txt
+MorseCode -d encode -rp morse-code-encode-input.txt -wp morse-code-output.txt
 ```
 
 2. **Decoding Morse Code to Text:**
 
 ```bash
-MorseCode.exe -d decode -rp morse-code-decode-input.txt -wp morse-code-output.txt
+MorseCode -d decode -rp morse-code-decode-input.txt -wp morse-code-output.txt
 ```
 
 3. **Specifying a Custom Morse Code Specification File:**
 
 ```bash
-MorseCode.exe -cp custom-morse-code-spec.json
+MorseCode -cp custom-morse-code-spec.json
 ```
 
 4. **Adjusting Log Level to Debug:**
 
 ```bash
-MorseCode.exe -ll DEBUG
+MorseCode -ll DEBUG
 ```
 
 ## Morse Code Specification
