@@ -1,0 +1,8 @@
+# editors
+.vs/*
+
+# mac
+.DS_Store
+
+*/bin/*
+*/obj/*
